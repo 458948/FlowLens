@@ -1,0 +1,25 @@
+target/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+*.log
+.DS_Store
+
+# local load-test artifacts and results
+tools/loadtest/results/
+tools/loadtest/*.class
+tools/loadtest/loadtest/*.class
+
+# sensitive / local files
+.env
+*.pem
+*.key
+*.token
+*.secret
+credentials*
+application-local*
+Dockerfile.diag
+Dockerfile.phase13diag
+Dockerfile.phase16diag
